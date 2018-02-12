@@ -40,7 +40,6 @@ body{
 
 .bodySection{
   padding-top: 50px;
-
 }
 
 .leftSection{
@@ -63,7 +62,7 @@ body{
   border-radius: 3px;
 }
 
-.card-body .row .col-md-3{
+.circles .row .col-md-3{
   padding: 20px;
 }
 
@@ -142,6 +141,29 @@ h1{
   padding-right: 15px;
 }
 
+#collapseExp{
+  font-size: 18px;
+}
+
+#collapseExp .row{
+  margin-top: 50px;
+}
+
+#collapseExp .col-md-8{
+  background-color: rgba(208, 215, 226, 0.2);
+  padding-top: 10px;
+  border-radius: 3px;
+}
+
+#carouselMartialArts{
+  margin: auto;
+  height: 500px;
+}
+
+#carouselMusic{
+  margin: auto;
+}
+
 /*Header animation*/
 header:before {
   animation: fade-slide-down 2s .5s cubic-bezier(0, 0.5, 0, 1) forwards;
@@ -207,7 +229,7 @@ header:after {
     opacity: 0;
   }
   100% {
-    letter-spacing: 20px;
+    letter-spacing: 15px;
     opacity: 1;
   }
 }
